@@ -14,7 +14,7 @@ header {
 .logo-image {
   width: 70px;
   height: auto;
-  margin-right: 15px; /* Adds space between the logo and the text */
+  margin-right: 15px; 
 }
 
 .name-title {
@@ -91,4 +91,17 @@ header {
   height: auto; 
   border-radius: 50%; 
   margin-left: 20px;
+}
+
+.nav-line {
+  border: 0;
+  height: 2px;
+  background-color: #2a9d8f;
+  margin: 0;
+  width: 100%;
+}
+
+.btm-nav{
+  color: #ffffff;
+  margin-left: 0;
 }

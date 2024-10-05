@@ -17,6 +17,7 @@ function App() {
           <p className="contact">Email: araliyawijesakare@gmail.com | Phone: +94 70 233 1284</p>
         </div>
       </header>
+      <hr className="nav-line"/>
       <div className="first-section">
         <div>
           <h1 className="News">Hello, I'm Vishwa!</h1>
