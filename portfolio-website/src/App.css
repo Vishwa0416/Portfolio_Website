@@ -9,6 +9,14 @@
   color: white;
 }
 
+.first-section {
+  background-color: #d7cac4; 
+  height: 80vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 .News{
 color: rgb(0, 0, 0);
 text-align: center;

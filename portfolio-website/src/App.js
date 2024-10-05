@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
-  <title>Vishwa Wijesekare</title>
   return (
     <div className="App">
-       <p className = "News">Hello, I'm Vishwa</p>
+      <div className="first-section">
+        <p className="News">Hello, I'm Vishwa</p>
+      </div>
     </div>
   );
 }
