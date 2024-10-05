@@ -1,25 +1,45 @@
-.App-header {
-  background-color: #fbfbfb;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .first-section {
-  background-color: #d7cac4; 
-  height: 80vh; 
+  background-color: #264653; 
+  height: 100vh; 
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 240px; 
 }
 
-.News{
-color: rgb(0, 0, 0);
-text-align: center;
-font-size: 51px;
-font-weight: bolder;
+.News {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: bolder;
+  margin: 0; 
+}
+
+.under {
+  font-size: 18px; 
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.contact-btn {
+  background-color: #E9C46A;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.contact-btn:hover {
+  background-color: #f4a261;
+}
+
+.profile-image {
+  width: 550px;
+  height: auto; 
+  border-radius: 50%; 
+  margin-left: 20px;
 }
