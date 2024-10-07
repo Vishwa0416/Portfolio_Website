@@ -7,6 +7,9 @@ import linkedImage from './assets/images/linkedin.png';
 import twitImage from './assets/images/twitter.png';
 import ytImage from './assets/images/youtube.png';
 import manImage from './assets/images/man2.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
+
 
 function App() {
   return (
@@ -37,9 +40,31 @@ function App() {
         </div>
         <img src={profileImage} alt="Profile" className="profile-image" />
       </div>
-      <div>
-      <img src={manImage} alt="Man" className="man2-image" />
-      </div>
+      <div className="text-and-image-container">
+  <img src={manImage} alt="Man" className="man2-image" />
+  <div className="text-section">
+  <h1 className='News2'>Who am I?</h1>
+  <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
+    I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
+    My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
+ 
+  <h2>I'm good at:</h2>
+  <ul className="skills-list">
+    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
+    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
+    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
+    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
+    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+  </ul>
+  <div className="button-group">
+    <button className="btn-primary">More About Me</button>
+    <button className="btn-secondary">My Work</button>
+  </div>
+</div>
+
+</div>
+
+
     </div>
   );
 }
