@@ -5,6 +5,7 @@ import instaImage from './assets/images/instagram.png';
 import fbImage from './assets/images/facebook.png';
 import linkedImage from './assets/images/linkedin.png';
 import twitImage from './assets/images/twitter.png';
+import ytImage from './assets/images/youtube.png';
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
         </div>
         <div className="contact-info">
           <p className="contact">Email: araliyawijesakare@gmail.com | Phone: +94 70 233 1284</p>
-          <img src={instaImage} alt="Insta" className="insta-image" />
-          <img src={fbImage} alt="fb" className="fb-image" />
-          <img src={linkedImage} alt="linkedin" className="lin-image" />
-          <img src={twitImage} alt="twitter" className="twit-image" />
+          <a href="https://www.instagram.com/vishwa_wijesakare?igsh=anpnZGR5N2EwdDB5"><img src={instaImage} alt="Insta" className="insta-image" /></a>
+          <a href="https://www.facebook.com/araliya.wijesakara"><img src={fbImage} alt="fb" className="fb-image" /></a>
+          <a href="https://www.linkedin.com/in/vishwa-wijesakare-752040247"><img src={linkedImage} alt="linkedin" className="lin-image" /></a>
+          <a href="https://x.com/VWijesakare"><img src={twitImage} alt="twitter" className="twit-image" /></a>
+          <a href="https://www.youtube.com/@vishwawijesakare4157"><img src={ytImage} alt="youtube" className="yt-image" /></a>
         </div>
       </header>
       <hr className="nav-line"/>
