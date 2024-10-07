@@ -1,6 +1,10 @@
 import './App.css';
 import profileImage from './assets/images/man.png'; 
 import logoImage from './assets/images/newlogo.png'; 
+import instaImage from './assets/images/instagram.png'; 
+import fbImage from './assets/images/facebook.png';
+import linkedImage from './assets/images/linkedin.png';
+import twitImage from './assets/images/twitter.png';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
         </div>
         <div className="contact-info">
           <p className="contact">Email: araliyawijesakare@gmail.com | Phone: +94 70 233 1284</p>
+          <img src={instaImage} alt="Insta" className="insta-image" />
+          <img src={fbImage} alt="fb" className="fb-image" />
+          <img src={linkedImage} alt="linkedin" className="lin-image" />
+          <img src={twitImage} alt="twitter" className="twit-image" />
         </div>
       </header>
       <hr className="nav-line"/>

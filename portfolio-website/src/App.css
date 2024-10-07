@@ -105,3 +105,18 @@ header {
   color: #ffffff;
   margin-left: 0;
 }
+
+.insta-image{
+  width: 30px;
+  margin: 10px;
+}
+
+.fb-image{
+  width: 30px;
+  margin: 10px;
+}
+
+.lin-image{
+  width: 30px;
+  margin: 10px;
+}
