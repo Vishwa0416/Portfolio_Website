@@ -57,8 +57,8 @@ function App() {
     <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
   </ul>
   <div className="button-group">
-    <button className="btn-primary">More About Me</button>
-    <button className="btn-secondary">My Work</button>
+    <button className="btn-primary">Portfolio</button>
+    <button className="btn-secondary">Download CV</button>
   </div>
 </div>
 
