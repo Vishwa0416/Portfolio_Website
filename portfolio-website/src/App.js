@@ -6,6 +6,7 @@ import fbImage from './assets/images/facebook.png';
 import linkedImage from './assets/images/linkedin.png';
 import twitImage from './assets/images/twitter.png';
 import ytImage from './assets/images/youtube.png';
+import manImage from './assets/images/man2.png';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           <button className="contact-btn">Contact Me</button>
         </div>
         <img src={profileImage} alt="Profile" className="profile-image" />
+      </div>
+      <div>
+      <img src={manImage} alt="Man" className="man2-image" />
       </div>
     </div>
   );
