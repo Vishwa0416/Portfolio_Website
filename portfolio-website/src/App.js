@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import profileImage from './assets/images/man.png'; 
 import logoImage from './assets/images/newlogo.png'; 
 import instaImage from './assets/images/instagram.png'; 
@@ -8,10 +9,39 @@ import twitImage from './assets/images/twitter.png';
 import ytImage from './assets/images/youtube.png';
 import manImage from './assets/images/man2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-
+import { faCheck, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
+
+  // Scroll-triggered animation for second section
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    const elements = document.querySelectorAll('.fade-on-scroll');
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+
+    // Clean up observer on unmount
+    return () => {
+      elements.forEach((element) => {
+        observer.unobserve(element);
+      });
+    };
+  }, []);
+
+  // Scroll to next section function
+  const scrollToNextSection = () => {
+    const nextSection = document.querySelector('.text-and-image-container');
+    nextSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="App">
       <header>
@@ -39,31 +69,35 @@ function App() {
           <button className="contact-btn">Contact Me</button>
         </div>
         <img src={profileImage} alt="Profile" className="profile-image" />
+        {/* Scroll Down Icon */}
+        <div className="scroll-down" onClick={scrollToNextSection}>
+          <FontAwesomeIcon icon={faChevronDown} className="scroll-icon" />
+        </div>
       </div>
-      <div className="text-and-image-container">
-  <img src={manImage} alt="Man" className="man2-image" />
-  <div className="text-section">
-  <h1 className='News2'>Who am I?</h1>
-  <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
-    I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
-    My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
- 
-  <h2>I'm good at:</h2>
-  <ul className="skills-list">
-    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
-    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
-    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
-    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
-    <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
-  </ul>
-  <div className="button-group">
-    <button className="btn-primary">Portfolio</button>
-    <button className="btn-secondary">Download CV</button>
-  </div>
-</div>
 
-</div>
-
+      {/* Second section with fade-on-scroll class */}
+      <div className="text-and-image-container fade-on-scroll">
+        <img src={manImage} alt="Man" className="man2-image" />
+        <div className="text-section">
+          <h1 className="News2">Who am I?</h1>
+          <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
+            I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
+            My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
+       
+          <h2>I'm good at:</h2>
+          <ul className="skills-list">
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+          </ul>
+          <div className="button-group">
+            <button className="btn-primary">Portfolio</button>
+            <button className="btn-secondary">Download CV</button>
+          </div>
+        </div>
+      </div>
 
     </div>
   );
