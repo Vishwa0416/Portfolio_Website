@@ -8,6 +8,7 @@ import linkedImage from './assets/images/linkedin.png';
 import twitImage from './assets/images/twitter.png';
 import ytImage from './assets/images/youtube.png';
 import manImage from './assets/images/man2.png';
+import man3Image from './assets/images/man3.png';
 import projects from './assets/images/myprojects.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -117,7 +118,7 @@ function App() {
               Designed to provide personalized skincare solutions tailored to individual skin types and conditions, Glova offers an innovative approach to skincare.</p>
           </ul>
         </div>
-        <img src={projects} alt="Projects" className="projects-image" />
+        <img src={man3Image} alt="Coder Image" className="man3-image" />
         
       </div>
       </div>
