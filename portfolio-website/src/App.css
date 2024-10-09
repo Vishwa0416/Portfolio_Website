@@ -313,7 +313,8 @@ header {
   animation-fill-mode: forwards;
 }
 
-.text-and-image-container2 {
+.third-section {
   display: flex;
   align-items: center; 
+  background-color: #2a9d8f;
 }

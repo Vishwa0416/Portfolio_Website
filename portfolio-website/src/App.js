@@ -93,7 +93,8 @@ function App() {
         </div>
       </div>
 
-      <div className="text-and-image-container2">
+      <div className='third-section'>
+      <div className="text-and-image-container fade-on-scroll">
       <div className="text-section">
           <h1 className="News2">My Projects</h1>
           <p>I have developed sereval projects with different software tools. Here are some of them to you to check out.</p>
@@ -118,6 +119,7 @@ function App() {
         </div>
         <img src={projects} alt="Projects" className="projects-image" />
         
+      </div>
       </div>
     </div>
   );
