@@ -302,3 +302,15 @@ header {
     transform: translateY(-5px);
   }
 }
+
+.projects-image {
+  width: 550px;
+  height: auto; 
+  border-radius: 50%; 
+  margin-left: 500px;
+  margin-right: 20px;
+  animation: fadeIn 1.2s ease-out; 
+  animation-delay: 1.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}

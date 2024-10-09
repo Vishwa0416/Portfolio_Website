@@ -8,6 +8,7 @@ import linkedImage from './assets/images/linkedin.png';
 import twitImage from './assets/images/twitter.png';
 import ytImage from './assets/images/youtube.png';
 import manImage from './assets/images/man2.png';
+import projects from './assets/images/myprojects.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -93,12 +94,9 @@ function App() {
       </div>
 
       <div className="text-and-image-container fade-on-scroll">
-        <img src={manImage} alt="Man" className="man2-image" />
-        <div className="text-section">
-          <h1 className="News2">Who am I?</h1>
-          <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
-            I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
-            My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
+      <div className="text-section">
+          <h1 className="News2">My Projects</h1>
+          <p>I have developed sereval projects with different software t</p>
        
           <h2>I'm good at:</h2>
           <ul className="skills-list">
@@ -108,11 +106,10 @@ function App() {
             <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
             <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
           </ul>
-          <div className="button-group">
-            <button className="btn-primary">Portfolio</button>
-            <button className="btn-secondary">Download CV</button>
-          </div>
+          
         </div>
+        <img src={projects} alt="Projects" className="projects-image" />
+        
       </div>
     </div>
   );
