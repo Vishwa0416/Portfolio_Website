@@ -93,20 +93,28 @@ function App() {
         </div>
       </div>
 
-      <div className="text-and-image-container fade-on-scroll">
+      <div className="text-and-image-container2">
       <div className="text-section">
           <h1 className="News2">My Projects</h1>
-          <p>I have developed sereval projects with different software t</p>
-       
-          <h2>I'm good at:</h2>
+          <p>I have developed sereval projects with different software tools. Here are some of them to you to check out.</p>
           <ul className="skills-list">
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+            <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> AgriConnect (Group)</li></h2>
+            <p>Designed and implemented a Crop Recommendation Tool using AI algorithms, providing personalized crop suggestions based on location, soil, and climate conditions. 
+              Developed a Marketplace Platform allowing farmers to list produce, negotiate prices, and connect directly with buyers, eliminating intermediaries and ensuring fair compensation. </p>
+            <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> MedAssist (Group)</li></h2>
+            <p>MedAssist is an AI-powered mobile app that simplifies medical report interpretation and offers personalized healthcare recommendations. 
+              There are some other features as well. Such as, doctor recommendation system, AI chatbot for personal assistance, user feedback portal.
+            </p>
+            <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> TravPlan (Individiual)</li></h2>
+            <p>TravPlan is a Flutter-based travel app that helps you explore nearby destinations, manage bookings and travel dates, and discover popular places, all in one user-friendly platform. 
+              The application is based on Flutter framework.
+            </p>
+            <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individiual)</li></h2>
+            <p>Drinker is a web app that enhances bar experiences with tailored features for owners, bartenders, and patrons.The project is based on Laravel and MySQL. </p>
+            <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Glova (Group)</li></h2>
+            <p>Glova is a revolutionary skincare application that redefines the beauty industry by integrating advanced facial recognition technology and artificial intelligence. 
+              Designed to provide personalized skincare solutions tailored to individual skin types and conditions, Glova offers an innovative approach to skincare.</p>
           </ul>
-          
         </div>
         <img src={projects} alt="Projects" className="projects-image" />
         
