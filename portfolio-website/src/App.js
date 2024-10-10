@@ -43,6 +43,7 @@ function App() {
   return (
     <div className="App">
       <header>
+      {/*First Section*/ }
         <div className="logo-section">
           <img src={logoImage} alt="Logo" className="logo-image" />
           <div className="name-title">
@@ -71,6 +72,9 @@ function App() {
           <FontAwesomeIcon icon={faChevronDown} className="scroll-icon" />
         </div>
       </div>
+
+      {/*Second Section*/ }
+
       <div className="text-and-image-container fade-on-scroll">
         <img src={manImage} alt="Man" className="man2-image" />
         <div className="text-section">
@@ -93,6 +97,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/*Third Section*/ }
 
       <div className='third-section'>
       <div className="text-and-image-container fade-on-scroll">
@@ -122,6 +128,20 @@ function App() {
         
       </div>
       </div>
+
+      <footer className='footer-section'>
+      <div className="footer-content">
+          <p>© 2024 Vishwa Wijesakare. All Rights Reserved.</p>
+          <p>Developed by Vishwa Wijesakare</p>
+          <div className="footer-socials">
+            <a href="https://www.instagram.com/vishwa_wijesakare?igsh=anpnZGR5N2EwdDB5"><img src={instaImage} alt="Insta" className="footer-social-icon" /></a>
+            <a href="https://www.facebook.com/araliya.wijesakara"><img src={fbImage} alt="Facebook" className="footer-social-icon" /></a>
+            <a href="https://www.linkedin.com/in/vishwa-wijesakare-752040247"><img src={linkedImage} alt="LinkedIn" className="footer-social-icon" /></a>
+            <a href="https://x.com/VWijesakare"><img src={twitImage} alt="Twitter" className="footer-social-icon" /></a>
+            <a href="https://www.youtube.com/@vishwawijesakare4157"><img src={ytImage} alt="YouTube" className="footer-social-icon" /></a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

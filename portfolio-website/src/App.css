@@ -181,7 +181,7 @@ header {
 
 .News2 {
   color: #000000;
-  font-size: 51px;
+  font-size: 100px;
   font-weight: bolder;
   margin: 0;
   font-size: 24px;
@@ -329,4 +329,29 @@ header {
   animation-delay: 1.4s;
   opacity: 0;
   animation-fill-mode: forwards;
+}
+
+.footer-section {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  margin-top: 10px;
+}
+
+.footer-social-icon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.footer-social-icon:hover {
+  opacity: 0.7;
 }
