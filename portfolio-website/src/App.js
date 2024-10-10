@@ -130,8 +130,37 @@ function App() {
           </div>
           <img src={man3Image} alt="Coder Image" className="man3-image" />
         </div>
+
+        <div className="scroll-down2" onClick={scrollToThirdSection}>
+          <FontAwesomeIcon icon={faChevronDown} className="scroll-icon2" />
+        </div>
       </div>
 
+      {/* Second Section */}
+      <div className="text-and-image-container fade-on-scroll">
+        <img src={manImage} alt="Man" className="man2-image" />
+        <div className="text-section">
+          <h1 className="News2">Who am I?</h1>
+          <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
+            I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
+            My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
+       
+          <h2>I'm good at:</h2>
+          <ul className="skills-list">
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+          </ul>
+          <div className="button-group">
+            <button className="btn-primary">Portfolio</button>
+            <button className="btn-secondary">Download CV</button>
+          </div>
+        </div>
+      </div>
+
+      {/*Footer section*/}
       <footer className='footer-section'>
         <div className="footer-content">
           <p>© 2024 Vishwa Wijesakare. All Rights Reserved.</p>
