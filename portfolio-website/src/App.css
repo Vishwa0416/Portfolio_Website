@@ -289,6 +289,7 @@ header {
 
 .scroll-icon:hover {
   transform: translateY(10px);
+  color: #777777;
 }
 
 @keyframes bounce {
@@ -354,4 +355,22 @@ header {
 
 .footer-social-icon:hover {
   opacity: 0.7;
+}
+
+.scroll-down2 {
+  margin-top: 480px;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(194, 0, 0); /* You can change this to any color you want */
+}
+
+.scroll-icon2 {
+  font-size: 30px; /* Adjust the size if necessary */
+  color: #000000; /* Ensure visibility against background */
+  transition: transform 0.3s;
+}
+
+.scroll-icon2:hover {
+  transform: translateY(5px);
+  color: #777777; /* Optional hover color, can be customized */
 }
