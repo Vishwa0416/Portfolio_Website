@@ -385,4 +385,5 @@ header {
   animation-delay: 1.4s;
   opacity: 0;
   animation-fill-mode: forwards;
+  margin: 20px;
 }

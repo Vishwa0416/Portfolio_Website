@@ -12,7 +12,10 @@ import man3Image from './assets/images/man3.png';
 import Caller from './assets/images/call.png';
 import projects from './assets/images/myprojects.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faChevronDown, faEnvelope, faLocation, faLocationArrow, faLocationCrosshairs, faLocationPin, faMailBulk, faMapLocation, faMapMarked, faMapMarker, faPhone, faSignsPost, faVoicemail } from '@fortawesome/free-solid-svg-icons';
+import { faMailForward } from '@fortawesome/free-solid-svg-icons/faMailForward';
+import { faMailReplyAll } from '@fortawesome/free-solid-svg-icons/faMailReplyAll';
+import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons/faLocationPinLock';
 
 function App() {
   useEffect(() => {
@@ -143,11 +146,9 @@ function App() {
         <div className="text-section">
           <h1 className="News2">Contact Me</h1>
           <ul className="skills-list">
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Telephone: +94 70 233 1284</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+            <li><FontAwesomeIcon icon={faPhone} className="black-tick" /> Telephone: +94 70 233 1284</li>
+            <li><FontAwesomeIcon icon={faEnvelope} className="black-tick" /> Email: araliyawijesakare@gmail.com</li>
+            <li><FontAwesomeIcon icon={faMapMarker} className="black-tick" /> Address: 64/13, Wariyapola, Matale, Sri Lanka</li>
           </ul>
         </div>
       </div>
