@@ -102,7 +102,10 @@ function App() {
           </ul>
           <div className="button-group">
             <button className="btn-primary">Portfolio</button>
-            <button className="btn-secondary">Download CV</button>
+            <a href="/20APC4674_Vishwa.pdf" download ="Vishwa.pdf" className="btn-secondary">Download CV</a>
+
+
+
           </div>
         </div>
         <div className="scroll-down2" onClick={scrollToThirdSection}>
