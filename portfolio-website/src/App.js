@@ -88,7 +88,7 @@ function App() {
         <img src={manImage} alt="Man" className="man2-image" />
         <div className="text-section">
           <h1 className="News2">Who am I?</h1>
-          <p>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
+          <p className="news-text">I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
             I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
             My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
        
