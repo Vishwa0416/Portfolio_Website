@@ -10,12 +10,9 @@ import ytImage from './assets/images/youtube.png';
 import manImage from './assets/images/man2.png';
 import man3Image from './assets/images/man3.png';
 import Caller from './assets/images/call.png';
-import projects from './assets/images/myprojects.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faChevronDown, faEnvelope, faLocation, faLocationArrow, faLocationCrosshairs, faLocationPin, faMailBulk, faMapLocation, faMapMarked, faMapMarker, faPhone, faSignsPost, faVoicemail } from '@fortawesome/free-solid-svg-icons';
-import { faMailForward } from '@fortawesome/free-solid-svg-icons/faMailForward';
-import { faMailReplyAll } from '@fortawesome/free-solid-svg-icons/faMailReplyAll';
-import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons/faLocationPinLock';
+
 
 function App() {
   useEffect(() => {
@@ -51,6 +48,11 @@ function App() {
     thirdSection.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToContactSection = () => {
+    const contactSection = document.querySelector('#contact-section');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="App">
       <header>
@@ -72,11 +74,11 @@ function App() {
       </header>
       <hr className="nav-line"/>
       <div className="first-section">
-        <div>
-          <h1 className="News">Hello, I'm Vishwa!</h1>
-          <p className="under">- Tech enthusiast -</p>
-          <button className="contact-btn">Contact Me</button>
-        </div>
+      <div>
+        <h1 className="News">Hello, I'm Vishwa!</h1>
+        <p className="under">- Tech enthusiast -</p>
+        <button className="contact-btn" onClick={scrollToContactSection}>Contact Me</button>
+      </div>
         <img src={profileImage} alt="Profile" className="profile-image" />
         <div className="scroll-down" onClick={scrollToNextSection}>
           <FontAwesomeIcon icon={faChevronDown} className="scroll-icon" />
@@ -88,7 +90,7 @@ function App() {
         <img src={manImage} alt="Man" className="man2-image" />
         <div className="text-section">
           <h1 className="News2">Who am I?</h1>
-          <p className="news-text">I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
+          <p className='news-list'>I’m a versatile software developer with strong expertise in Flutter, React, and Java. Fueled by a deep passion for software development and an eagerness to continuously grow, 
             I thrive in collaborative settings and am excited to contribute to cutting edge projects. 
             My aim is to apply my technical expertise and collaborative skills to create meaningful solutions while further advancing my knowledge and capabilities in the field.</p>
        
@@ -144,7 +146,7 @@ function App() {
       </div>
 
       {/* Fourth Section */}
-      <div className="text-and-image-container fade-on-scroll">
+      <div id="contact-section" className="text-and-image-container fade-on-scroll">
         <img src={Caller} alt="Calling man" className="call-image" />
         <div className="text-section">
           <h1 className="News2">Contact Me</h1>

@@ -180,11 +180,8 @@ header {
 }
 
 .News2 {
-  color: #000000;
-  font-size: 100px;
   font-weight: bolder;
   margin: 0;
-  font-size: 24px;
   margin-bottom: 10px;
   animation: fadeIn 1s ease-out;
   animation-delay: 1.2s;
@@ -192,9 +189,8 @@ header {
   animation-fill-mode: forwards;
 }
 
-.news-text p {
-  color: #000000;
-  font-size: 55px;
+.news-list{
+  font-size: xx-large;
 }
 
 .skills-list {
