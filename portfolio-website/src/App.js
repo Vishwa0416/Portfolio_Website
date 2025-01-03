@@ -96,11 +96,11 @@ function App() {
        
           <h2>I'm good at:</h2>
           <ul className="skills-list">
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving</li>
-            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Flutter Development,</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> React Development,</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Java Programming,</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Problem Solving,</li>
+            <li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Team Collaboration.</li>
           </ul>
           <div className="button-group">
             <button className="btn-primary">Portfolio</button>
