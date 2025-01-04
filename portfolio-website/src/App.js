@@ -125,15 +125,15 @@ function App() {
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> AgriConnect (Group) <a href='https://github.com/D-Binara/AgriConnect-Frontend'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>Designed and implemented a Crop Recommendation Tool using AI algorithms, providing personalized crop suggestions based on location, soil, and climate conditions. 
               Developed a Marketplace Platform allowing farmers to list produce, negotiate prices, and connect directly with buyers, eliminating intermediaries and ensuring fair compensation. </p>
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> MedAssist (Group)</li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> MedAssist (Group) <a href='https://github.com/HeshanNavindu-7/MedAssist-frontend'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>MedAssist is an AI-powered mobile app that simplifies medical report interpretation and offers personalized healthcare recommendations. 
               There are some other features as well. Such as, doctor recommendation system, AI chatbot for personal assistance, user feedback portal.
               </p>
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> TravPlan (Individual)</li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> TravPlan (Individual) <a href='https://github.com/Vishwa0416/TravPlan'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>TravPlan is a Flutter-based travel app that helps you explore nearby destinations, manage bookings and travel dates, and discover popular places, all in one user-friendly platform.</p>
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individual): </li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individual) <a href='https://github.com/Vishwa0416/Drinker'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>Drinker is a web app that enhances bar experiences with tailored features for owners, bartenders, and patrons. The project is based on Laravel and MySQL.</p>
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Glova (Group)</li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Glova (Group) <a href='https://github.com/Vishwa0416/Glova-Front-end'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>Glova is a revolutionary skincare application that integrates advanced facial recognition technology and artificial intelligence to provide personalized skincare solutions tailored to individual skin types. </p>
             </ul>
           </div>
