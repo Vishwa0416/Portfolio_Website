@@ -122,7 +122,7 @@ function App() {
             <h1 className="News2">My Projects</h1>
             <p>I have developed several projects with different software tools. Here are some of them to check out.</p>
             <ul className="skills-list">
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> AgriConnect (Group)</li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> AgriConnect (Group) <a href='https://github.com/D-Binara/AgriConnect-Frontend'style={{ marginLeft: '10px' }} >Check it out</a></li></h2>
               <p>Designed and implemented a Crop Recommendation Tool using AI algorithms, providing personalized crop suggestions based on location, soil, and climate conditions. 
               Developed a Marketplace Platform allowing farmers to list produce, negotiate prices, and connect directly with buyers, eliminating intermediaries and ensuring fair compensation. </p>
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> MedAssist (Group)</li></h2>
@@ -134,7 +134,7 @@ function App() {
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individual): </li></h2>
               <p>Drinker is a web app that enhances bar experiences with tailored features for owners, bartenders, and patrons. The project is based on Laravel and MySQL.</p>
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Glova (Group)</li></h2>
-              <p>Glova is a revolutionary skincare application that integrates advanced facial recognition technology and artificial intelligence to provide personalized skincare solutions tailored to individual skin types.</p>
+              <p>Glova is a revolutionary skincare application that integrates advanced facial recognition technology and artificial intelligence to provide personalized skincare solutions tailored to individual skin types. </p>
             </ul>
           </div>
           <img src={man3Image} alt="Coder Image" className="man3-image" />
