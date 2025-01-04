@@ -131,7 +131,7 @@ function App() {
               </p>
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> TravPlan (Individual)</li></h2>
               <p>TravPlan is a Flutter-based travel app that helps you explore nearby destinations, manage bookings and travel dates, and discover popular places, all in one user-friendly platform.</p>
-              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individual)</li></h2>
+              <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Drinker (Individual): </li></h2>
               <p>Drinker is a web app that enhances bar experiences with tailored features for owners, bartenders, and patrons. The project is based on Laravel and MySQL.</p>
               <h2><li><FontAwesomeIcon icon={faCheck} className="black-tick" /> Glova (Group)</li></h2>
               <p>Glova is a revolutionary skincare application that integrates advanced facial recognition technology and artificial intelligence to provide personalized skincare solutions tailored to individual skin types.</p>
@@ -161,8 +161,8 @@ function App() {
       {/*Footer section*/}
       <footer className='footer-section'>
         <div className="footer-content">
-          <p>© 2024 Vishwa Wijesakare. All Rights Reserved.</p>
-          <p>Developed by Vishwa Wijesakare</p>
+          <p>© 2025 Vishwa Wijesakare. All Rights Reserved.</p>
+          <p>Developed by Vishwa Wijesakare.</p>
           <div className="footer-socials">
             <a href="https://www.instagram.com/vishwa_wijesakare?igsh=anpnZGR5N2EwdDB5"><img src={instaImage} alt="Insta" className="footer-social-icon" /></a>
             <a href="https://www.facebook.com/araliya.wijesakara"><img src={fbImage} alt="Facebook" className="footer-social-icon" /></a>
