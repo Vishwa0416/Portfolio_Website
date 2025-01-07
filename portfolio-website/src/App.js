@@ -153,7 +153,7 @@ function App() {
   <ul className="skills-list one-line">
     <li><FontAwesomeIcon icon={faPhone} className="black-tick" /> Telephone: +94 70 233 1284</li>
     <li><FontAwesomeIcon icon={faEnvelope} className="black-tick" /> Email: araliyawijesakare@gmail.com</li>
-    <li><FontAwesomeIcon icon={faMapMarker} className="black-tick" /> Address: 64/13, Wariyapola, Matale, Sri Lanka</li>
+    <li><FontAwesomeIcon icon={faMapMarker} className="black-tick" /> Address: 64/13, Wariyapola, Matale, Sri Lanka.</li>
   </ul>
 </div>
 
