@@ -149,13 +149,14 @@ function App() {
       <div id="contact-section" className="text-and-image-container fade-on-scroll">
         <img src={Caller} alt="Calling man" className="call-image" />
         <div className="text-section">
-          <h1 className="News2">Contact Me</h1>
-          <ul className="skills-list">
-            <li><FontAwesomeIcon icon={faPhone} className="black-tick" /> Telephone: +94 70 233 1284</li>
-            <li><FontAwesomeIcon icon={faEnvelope} className="black-tick" /> Email: araliyawijesakare@gmail.com</li>
-            <li><FontAwesomeIcon icon={faMapMarker} className="black-tick" /> Address: 64/13, Wariyapola, Matale, Sri Lanka</li>
-          </ul>
-        </div>
+  <h1 className="News2">Contact Me</h1>
+  <ul className="skills-list one-line">
+    <li><FontAwesomeIcon icon={faPhone} className="black-tick" /> Telephone: +94 70 233 1284</li>
+    <li><FontAwesomeIcon icon={faEnvelope} className="black-tick" /> Email: araliyawijesakare@gmail.com</li>
+    <li><FontAwesomeIcon icon={faMapMarker} className="black-tick" /> Address: 64/13, Wariyapola, Matale, Sri Lanka</li>
+  </ul>
+</div>
+
       </div>
 
       {/*Footer section*/}
